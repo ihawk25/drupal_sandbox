@@ -1,0 +1,401 @@
+# Logfile created on 2017-03-08 14:27:55 -0600 by logger.rb/41954
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:27:55 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3ba3e0d8] Running /usr/bin/env mkdir -p /tmp on 10.10.1.160
+ DEBUG [3ba3e0d8] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:29:24 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [456aa479] Running /usr/bin/env mkdir -p /tmp on 10.10.1.160
+ DEBUG [456aa479] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:32:27 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [947fd688] Running /usr/bin/env mkdir -p /tmp on 10.10.1.160
+ DEBUG [947fd688] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:40:17 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [74fcab7a] Running /usr/bin/env mkdir -p /tmp on 10.10.1.160
+ DEBUG [74fcab7a] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:43:58 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [520562c4] Running /usr/bin/env mkdir -p /tmp on 10.10.1.160
+ DEBUG [520562c4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [520562c4] Finished in 0.363 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh 100.0%
+  INFO [1a3aaf23] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh on 10.10.1.160
+ DEBUG [1a3aaf23] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh
+  INFO [1a3aaf23] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [9b1c7838] Running /usr/bin/env git ls-remote git@github.com:ihawk25/drupal_sandbox.git HEAD on 10.10.1.160
+ DEBUG [9b1c7838] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:ihawk25/drupal_sandbox.git HEAD )
+ DEBUG [9b1c7838] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [9b1c7838] 	ec10cc76dbdc55ed64096db13410f8a77863468c	HEAD
+  INFO [9b1c7838] Finished in 0.639 seconds with exit status 0 (successful).
+  INFO [543616c6] Running /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared /var/www/capistrano.kendallhunt.com/releases on 10.10.1.160
+ DEBUG [543616c6] Command: /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared /var/www/capistrano.kendallhunt.com/releases
+  INFO [543616c6] Finished in 0.031 seconds with exit status 0 (successful).
+  INFO [0c8e37ad] Running /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared/html/sites/default/files /var/www/capistrano.kendallhunt.com/shared/private-files on 10.10.1.160
+ DEBUG [0c8e37ad] Command: /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared/html/sites/default/files /var/www/capistrano.kendallhunt.com/shared/private-files
+  INFO [0c8e37ad] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [fb910235] Running /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared/html/sites/default on 10.10.1.160
+ DEBUG [fb910235] Command: /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared/html/sites/default
+  INFO [fb910235] Finished in 0.025 seconds with exit status 0 (successful).
+ DEBUG [0f76a55c] Running [ -f /var/www/capistrano.kendallhunt.com/shared/html/sites/default/settings.php ] on 10.10.1.160
+ DEBUG [0f76a55c] Command: [ -f /var/www/capistrano.kendallhunt.com/shared/html/sites/default/settings.php ]
+ DEBUG [0f76a55c] Finished in 0.033 seconds with exit status 1 (failed).
+ ERROR linked file /var/www/capistrano.kendallhunt.com/shared/html/sites/default/settings.php does not exist on 10.10.1.160
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:45:51 -0600 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c8681ee8] Running /usr/bin/env mkdir -p /tmp on 10.10.1.160
+ DEBUG [c8681ee8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c8681ee8] Finished in 0.147 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh 100.0%
+  INFO [d6849453] Running /usr/bin/env chmod 700 /tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh on 10.10.1.160
+ DEBUG [d6849453] Command: /usr/bin/env chmod 700 /tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh
+  INFO [d6849453] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [398dc245] Running /usr/bin/env git ls-remote git@github.com:ihawk25/drupal_sandbox.git HEAD on 10.10.1.160
+ DEBUG [398dc245] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:ihawk25/drupal_sandbox.git HEAD )
+ DEBUG [398dc245] 	ec10cc76dbdc55ed64096db13410f8a77863468c	HEAD
+  INFO [398dc245] Finished in 0.670 seconds with exit status 0 (successful).
+  INFO [0a98aeaa] Running /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared /var/www/capistrano.kendallhunt.com/releases on 10.10.1.160
+ DEBUG [0a98aeaa] Command: /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared /var/www/capistrano.kendallhunt.com/releases
+  INFO [0a98aeaa] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [2e197a5f] Running /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared/html/sites/default/files /var/www/capistrano.kendallhunt.com/shared/private-files on 10.10.1.160
+ DEBUG [2e197a5f] Command: /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared/html/sites/default/files /var/www/capistrano.kendallhunt.com/shared/private-files
+  INFO [2e197a5f] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [c4b3e5d4] Running /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared/html/sites/default on 10.10.1.160
+ DEBUG [c4b3e5d4] Command: /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/shared/html/sites/default
+  INFO [c4b3e5d4] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [ceec8735] Running [ -f /var/www/capistrano.kendallhunt.com/shared/html/sites/default/settings.php ] on 10.10.1.160
+ DEBUG [ceec8735] Command: [ -f /var/www/capistrano.kendallhunt.com/shared/html/sites/default/settings.php ]
+ DEBUG [ceec8735] Finished in 0.026 seconds with exit status 0 (successful).
+ DEBUG [d5e8ea85] Running [ -f /var/www/capistrano.kendallhunt.com/current/REVISION ] on 10.10.1.160
+ DEBUG [d5e8ea85] Command: [ -f /var/www/capistrano.kendallhunt.com/current/REVISION ]
+ DEBUG [d5e8ea85] Finished in 0.027 seconds with exit status 1 (failed).
+ DEBUG [4ee8d9a8] Running [ -f /var/www/capistrano.kendallhunt.com/repo/HEAD ] on 10.10.1.160
+ DEBUG [4ee8d9a8] Command: [ -f /var/www/capistrano.kendallhunt.com/repo/HEAD ]
+ DEBUG [4ee8d9a8] Finished in 0.026 seconds with exit status 1 (failed).
+ DEBUG [3a6687a1] Running if test ! -d /var/www/capistrano.kendallhunt.com; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [3a6687a1] Command: if test ! -d /var/www/capistrano.kendallhunt.com; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com'" 1>&2; false; fi
+ DEBUG [3a6687a1] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [0d11b5e6] Running /usr/bin/env git clone --mirror git@github.com:ihawk25/drupal_sandbox.git /var/www/capistrano.kendallhunt.com/repo on 10.10.1.160
+ DEBUG [0d11b5e6] Command: cd /var/www/capistrano.kendallhunt.com && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh" ; /usr/bin/env git clone --mirror git@github.com:ihawk25/drupal_sandbox.git /var/www/capistrano.kendallhunt.com/repo )
+ DEBUG [0d11b5e6] 	Cloning into bare repository '/var/www/capistrano.kendallhunt.com/repo'...
+ DEBUG [0d11b5e6] 	remote: Counting objects: 1230, done.[K
+remote: Compressing objects:   0% (1/1045)   [Kremote: Compressing objects:   1% (11/1045)   [Kremote: Compressing objects:   2% (21/1045)   [Kremote: Compressing objects:   3% (32/1045)   [Kremote: Compressing objects:   4% (42/1045)   [Kremote: Compressing objects:   5% (53/1045)   [Kremote: Compressing objects:   6% (63/1045)   [Kremote: Compressing objects:   7% (74/1045)   [Kremote: Compressing objects:   8% (84/1045)   [Kremote: Compressing objects:   9% (95/1045)   [Kremote: Compressing objects:  10% (105/1045)   [Kremote: Compressing objects:  11% (115/1045)   [Kremote: Compressing objects:  12% (126/1045)   [Kremote: Compressing objects:  13% (136/1045)   [Kremote: Compressing objects:  14% (147/1045)   [Kremote: Compressing objects:  15% (157/1045)   [Kremote: Compressing objects:  16% (168/1045)   [Kremote: Compressing objects:  17% (178/1045)   [Kremote: Compressing objects:  18% (189/1045)   [Kremote: Compressing objects:  19% (199/1045)   [Kremote: Compressing objects:  20% (209/1045)   [Kremote: Compressing objects:  21% (220/1045)   [Kremote: Compressing objects:  22% (230/1045)   [Kremote: Compressing objects:  23% (241/1045)   [Kremote: Compressing objects:  24% (251/1045)   [Kremote: Compressing objects:  25% (262/1045)   [Kremote: Compressing objects:  26% (272/1045)   [Kremote: Compressing objects:  27% (283/1045)   [Kremote: Compressing objects:  28% (293/1045)   [Kremote: Compressing objects:  29% (304/1045)   [Kremote: Compressing objects:  30% (314/1045)   [Kremote: Compressing objects:  31% (324/1045)   [Kremote: Compressing objects:  32% (335/1045)   [Kremote: Compressing objects:  33% (345/1045)   [Kremote: Compressing objects:  34% (356/1045)   [Kremote: Compressing objects:  35% (366/1045)   [Kremote: Compressing objects:  36% (377/1045)   [Kremote: Compressing objects:  37% (387/1045)   [Kremote: Compressing objects:  38% (398/1045)   [Kremote: Compressing objects:  39% (408/1045)   [Kremote: Compressing objects:  40% (418/1045)   [Kremote: Compressing objects:  41% (429/1045)   [Kremote: Compressing objects:  42% (439/1045)   [Kremote: Compressing objects:  43% (450/1045)   [Kremote: Compressing objects:  44% (460/1045)   [Kremote: Compressing objects:  45% (471/1045)   [Kremote: Compressing objects:  46% (481/1045)   [Kremote: Compressing objects:  47% (492/1045)   [Kremote: Compressing objects:  48% (502/1045)   [Kremote: Compressing objects:  49% (513/1045)   [Kremote: Compressing objects:  50% (523/1045)   [Kremote: Compressing objects:  51% (533/1045)   [Kremote: Compressing objects:  52% (544/1045)   [Kremote: Compressing objects:  53% (554/1045)   [Kremote: Compressing objects:  54% (565/1045)   [Kremote: Compressing objects:  55% (575/1045)   [Kremote: Compressing objects:  56% (586/1045)   [Kremote: Compressing objects:  57% (596/1045)   [Kremote: Compressing objects:  58% (607/1045)   [Kremote: Compressing objects:  59% (617/1045)   [Kremote: Compressing objects:  60% (627/1045)   [Kremote: Compressing objects:  61% (638/1045)   [Kremote: Compressing objects:  62% (648/1045)   [Kremote: Compressing objects:  63% (659/1045)   [Kremote: Compressing objects:  64% (669/1045)   [Kremote: Compressing objects:  65% (680/1045)   [Kremote: Compressing objects:  66% (690/1045)   [Kremote: Compressing objects:  67% (701/1045)   [Kremote: Compressing objects:  68% (711/1045)   [Kremote: Compressing objects:  69% (722/1045)   [Kremote: Compressing objects:  70% (732/1045)   [Kremote: Compressing objects:  71% (742/1045)   [Kremote: Compressing objects:  72% (753/1045)   [Kremote: Compressing objects:  73% (763/1045)   [Kremote: Compressing objects:  74% (774/1045)   [Kremote: Compressing objects:  75% (784/1045)   [Kremote: Compressing objects:  76% (795/1045)   [Kremote: Compressing objects:  77% (805/1045)   [Kremote: Compressing objects:  78% (816/1045)   [Kremote: Compressing objects:  79% (
+ DEBUG [0d11b5e6] 	826/1045)   [Kremote: Compressing objects:  80% (836/1045)   [Kremote: Compressing objects:  81% (847/1045)   [Kremote: Compressing objects:  82% (857/1045)   [Kremote: Compressing objects:  83% (868/1045)   [Kremote: Compressing objects:  84% (878/1045)   [Kremote: Compressing objects:  85% (889/1045)   [Kremote: Compressing objects:  86% (899/1045)   [Kremote: Compressing objects:  87% (910/1045)   [Kremote: Compressing objects:  88% (920/1045)   [Kremote: Compressing objects:  89% (931/1045)   [Kremote: Compressing objects:  90% (941/1045)   [Kremote: Compressing objects:  91% (951/1045)   [Kremote: Compressing objects:  92% (962/1045)   [Kremote: Compressing objects:  93% (972/1045)   [Kremote: Compressing objects:  94% (983/1045)   [Kremote: Compressing objects:  95% (993/1045)   [Kremote: Compressing objects:  96% (1004/1045)   [Kremote: Compressing objects:  97% (1014/1045)   [Kremote: Compressing objects:  98% (1025/1045)   [Kremote: Compressing objects:  99% (1035/1045)   [Kremote: Compressing objects: 100% (1045/1045)   [Kremote: Compressing objects: 100% (1045/1045), done.[K
+ DEBUG [0d11b5e6] 	Receiving objects:   0% (1/1230)   
+ DEBUG [0d11b5e6] 	Receiving objects:   1% (13/1230)   
+ DEBUG [0d11b5e6] 	Receiving objects:   2% (25/1230)   
+ DEBUG [0d11b5e6] 	Receiving objects:   3% (37/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:   4% (50/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:   5% (62/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:   6% (74/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:   7% (87/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:   8% (99/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:   9% (111/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  10% (123/1230), 164.00 KiB | 310.00 KiB/s   Receiving objects:  11% (136/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  12% (148/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  13% (160/1230), 164.00 KiB | 310.00 KiB/s   Receiving objects:  14% (173/1230), 164.00 KiB | 310.00 KiB/s   Receiving objects:  15% (185/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  16% (197/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  16% (206/1230), 164.00 KiB | 310.00 KiB/s   Receiving objects:  17% (210/1230), 164.00 KiB | 310.00 KiB/s   Receiving objects:  18% (222/1230), 164.00 KiB | 310.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  19% (234/1230), 868.00 KiB | 833.00 KiB/s   Receiving objects:  20% (246/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  21% (259/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  22% (271/1230), 868.00 KiB | 833.00 KiB/s   Receiving objects:  23% (283/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  24% (296/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  25% (308/1230), 868.00 KiB | 833.00 KiB/s   Receiving objects:  26% (320/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  27% (333/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  28% (345/1230), 868.00 KiB | 833.00 KiB/s   Receiving objects:  29% (357/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  30% (369/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  31% (382/1230), 868.00 KiB | 833.00 KiB/s   Receiving objects:  32% (394/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  33% (406/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  34% (419/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  35% (431/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  36% (443/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  37% (456/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  38% (468/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  39% (480/1230), 868.00 KiB | 833.00 KiB/s   Receiving objects:  40% (492/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  41% (505/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  42% (517/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  43% (529/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  44% (542/1230), 868.00 KiB | 833.00 KiB/s   Receiving objects:  45% (554/1230), 868.00 KiB | 833.00 KiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  46% (566/1230), 868.00 KiB | 833.00 KiB/s   Receiving objects:  47% (579/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  48% (591/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  49% (603/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  50% (615/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  51% (628/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  52% (640/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  53% (652/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  54% (665/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  55% (677/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  56% (689/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  57% (702/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  58% (714/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  59% (726/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  60% (738/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  61% (751/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  62% (763/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  63% (775/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  64% (788/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  65% (800/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  66% (812/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  67% (825/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  68% (837/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  69% (849/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  70% (861/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  71% (874/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  72% (886/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  73% (898/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  74% (911/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  75% (923/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  76% (935/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  77% (948/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  78% (960/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  79% (972/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  80% (984/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  81% (997/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  82% (1009/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  83% (1021/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  84% (1034/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  85% (1046/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  86% (1058/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  87% (1071/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  88% (1083/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  89% (1095/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  90% (1107/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  91% (1120/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  92% (1132/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  93% (1144/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  94% (1157/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  95% (1169/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  96% (1181/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	Receiving objects:  97% (1194/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  98% (1206/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects:  99% (1218/1230), 1.84 MiB | 1.20 MiB/s   
+ DEBUG [0d11b5e6] 	remote: Total 1230 (delta 151), reused 1230 (delta 151), pack-reused 0[K
+ DEBUG [0d11b5e6] 	Receiving objects: 100% (1230/1230), 1.84 MiB | 1.20 MiB/s   Receiving objects: 100% (1230/1230), 3.33 MiB | 1.20 MiB/s, done.
+Resolving deltas:   0% (0/151)   Resolving deltas:   2% (4/151)   Resolving deltas:   3% (5/151)   Resolving deltas:   4% (7/151)   Resolving deltas:   5% (8/151)   Resolving deltas:   6% (10/151)   Resolving deltas:   9% (14/151)   Resolving deltas:  29% (44/151)   Resolving deltas:  33% (50/151)   Resolving deltas:  35% (54/151)   Resolving deltas:  38% (58/151)   Resolving deltas:  41% (62/151)   Resolving deltas:  43% (66/151)   Resolving deltas:  44% (67/151)   Resolving deltas:  45% (68/151)   Resolving deltas:  50% (76/151)   Resolving deltas:  52% (79/151)   Resolving deltas:  54% (82/151)   Resolving deltas:  55% (84/151)   Resolving deltas:  56% (86/151)   Resolving deltas:  57% (87/151)   Resolving deltas:  59% (90/151)   Resolving deltas:  60% (91/151)   Resolving deltas:  62% (94/151)   Resolving deltas:  64% (97/151)   Resolving deltas:  66% (100/151)   Resolving deltas:  70% (106/151)   Resolving deltas:  71% (108/151)   Resolving deltas:  73% (111/151)   Resolving deltas:  74% (112/151)   Resolving deltas:  75% (114/151)   Resolving deltas:  79% (120/151)   Resolving deltas:  82% (124/151)   Resolving deltas:  83% (126/151)   Resolving deltas:  84% (127/151)   Resolving deltas:  85% (129/151)   Resolving deltas:  86% (131/151)   Resolving deltas:  87% (132/151)   Resolving deltas:  88% (133/151)   
+ DEBUG [0d11b5e6] 	Resolving deltas:  92% (139/151)   Resolving deltas:  93% (141/151)   Resolving deltas:  94% (142/151)   Resolving deltas:  95% (144/151)   Resolving deltas:  96% (145/151)   Resolving deltas:  97% (147/151)   Resolving deltas: 100% (151/151)   Resolving deltas: 100% (151/151), done.
+  INFO [0d11b5e6] Finished in 2.479 seconds with exit status 0 (successful).
+ DEBUG [b4264644] Running if test ! -d /var/www/capistrano.kendallhunt.com/repo; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/repo'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [b4264644] Command: if test ! -d /var/www/capistrano.kendallhunt.com/repo; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/repo'" 1>&2; false; fi
+ DEBUG [b4264644] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [fda03052] Running /usr/bin/env git remote set-url origin git@github.com:ihawk25/drupal_sandbox.git on 10.10.1.160
+ DEBUG [fda03052] Command: cd /var/www/capistrano.kendallhunt.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh" ; /usr/bin/env git remote set-url origin git@github.com:ihawk25/drupal_sandbox.git )
+  INFO [fda03052] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [80661f60] Running /usr/bin/env git remote update --prune on 10.10.1.160
+ DEBUG [80661f60] Command: cd /var/www/capistrano.kendallhunt.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [80661f60] 	Fetching origin
+  INFO [80661f60] Finished in 0.538 seconds with exit status 0 (successful).
+ DEBUG [f2e878bb] Running if test ! -d /var/www/capistrano.kendallhunt.com/repo; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/repo'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [f2e878bb] Command: if test ! -d /var/www/capistrano.kendallhunt.com/repo; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/repo'" 1>&2; false; fi
+ DEBUG [f2e878bb] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [80a5ec50] Running /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/releases/20170308204552 on 10.10.1.160
+ DEBUG [80a5ec50] Command: cd /var/www/capistrano.kendallhunt.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh" ; /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/releases/20170308204552 )
+  INFO [80a5ec50] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [b2f92c5b] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/capistrano.kendallhunt.com/releases/20170308204552 on 10.10.1.160
+ DEBUG [b2f92c5b] Command: cd /var/www/capistrano.kendallhunt.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/capistrano.kendallhunt.com/releases/20170308204552 )
+  INFO [b2f92c5b] Finished in 0.324 seconds with exit status 0 (successful).
+ DEBUG [11d1170a] Running if test ! -d /var/www/capistrano.kendallhunt.com/repo; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/repo'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [11d1170a] Command: if test ! -d /var/www/capistrano.kendallhunt.com/repo; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/repo'" 1>&2; false; fi
+ DEBUG [11d1170a] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [fe58ae5d] Running /usr/bin/env git rev-list --max-count=1 master on 10.10.1.160
+ DEBUG [fe58ae5d] Command: cd /var/www/capistrano.kendallhunt.com/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-capistrano.kendallhunt.com-staging-vagrant.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [fe58ae5d] 	ec10cc76dbdc55ed64096db13410f8a77863468c
+ DEBUG [fe58ae5d] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG [868e4c30] Running if test ! -d /var/www/capistrano.kendallhunt.com/releases/20170308204552; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/releases/20170308204552'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [868e4c30] Command: if test ! -d /var/www/capistrano.kendallhunt.com/releases/20170308204552; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/releases/20170308204552'" 1>&2; false; fi
+ DEBUG [868e4c30] Finished in 0.016 seconds with exit status 0 (successful).
+  INFO [abd73c2e] Running /usr/bin/env echo "ec10cc76dbdc55ed64096db13410f8a77863468c" >> REVISION on 10.10.1.160
+ DEBUG [abd73c2e] Command: cd /var/www/capistrano.kendallhunt.com/releases/20170308204552 && /usr/bin/env echo "ec10cc76dbdc55ed64096db13410f8a77863468c" >> REVISION
+  INFO [abd73c2e] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO [815999a0] Running /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default on 10.10.1.160
+ DEBUG [815999a0] Command: /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default
+  INFO [815999a0] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG [595cd72d] Running [ -L /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/settings.php ] on 10.10.1.160
+ DEBUG [595cd72d] Command: [ -L /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/settings.php ]
+ DEBUG [595cd72d] Finished in 0.018 seconds with exit status 1 (failed).
+ DEBUG [9a6e0b93] Running [ -f /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/settings.php ] on 10.10.1.160
+ DEBUG [9a6e0b93] Command: [ -f /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/settings.php ]
+ DEBUG [9a6e0b93] Finished in 0.018 seconds with exit status 1 (failed).
+  INFO [5de053ea] Running /usr/bin/env ln -s /var/www/capistrano.kendallhunt.com/shared/html/sites/default/settings.php /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/settings.php on 10.10.1.160
+ DEBUG [5de053ea] Command: /usr/bin/env ln -s /var/www/capistrano.kendallhunt.com/shared/html/sites/default/settings.php /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/settings.php
+  INFO [5de053ea] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [9127478f] Running /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default /var/www/capistrano.kendallhunt.com/releases/20170308204552 on 10.10.1.160
+ DEBUG [9127478f] Command: /usr/bin/env mkdir -p /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default /var/www/capistrano.kendallhunt.com/releases/20170308204552
+  INFO [9127478f] Finished in 0.022 seconds with exit status 0 (successful).
+ DEBUG [84c44875] Running [ -L /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/files ] on 10.10.1.160
+ DEBUG [84c44875] Command: [ -L /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/files ]
+ DEBUG [84c44875] Finished in 0.022 seconds with exit status 1 (failed).
+ DEBUG [a65a1b5d] Running [ -d /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/files ] on 10.10.1.160
+ DEBUG [a65a1b5d] Command: [ -d /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/files ]
+ DEBUG [a65a1b5d] Finished in 0.020 seconds with exit status 1 (failed).
+  INFO [3cbef325] Running /usr/bin/env ln -s /var/www/capistrano.kendallhunt.com/shared/html/sites/default/files /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/files on 10.10.1.160
+ DEBUG [3cbef325] Command: /usr/bin/env ln -s /var/www/capistrano.kendallhunt.com/shared/html/sites/default/files /var/www/capistrano.kendallhunt.com/releases/20170308204552/html/sites/default/files
+  INFO [3cbef325] Finished in 0.026 seconds with exit status 0 (successful).
+ DEBUG [3024b2c5] Running [ -L /var/www/capistrano.kendallhunt.com/releases/20170308204552/private-files ] on 10.10.1.160
+ DEBUG [3024b2c5] Command: [ -L /var/www/capistrano.kendallhunt.com/releases/20170308204552/private-files ]
+ DEBUG [3024b2c5] Finished in 0.020 seconds with exit status 1 (failed).
+ DEBUG [3de6cb4d] Running [ -d /var/www/capistrano.kendallhunt.com/releases/20170308204552/private-files ] on 10.10.1.160
+ DEBUG [3de6cb4d] Command: [ -d /var/www/capistrano.kendallhunt.com/releases/20170308204552/private-files ]
+ DEBUG [3de6cb4d] Finished in 0.020 seconds with exit status 1 (failed).
+  INFO [70ebb723] Running /usr/bin/env ln -s /var/www/capistrano.kendallhunt.com/shared/private-files /var/www/capistrano.kendallhunt.com/releases/20170308204552/private-files on 10.10.1.160
+ DEBUG [70ebb723] Command: /usr/bin/env ln -s /var/www/capistrano.kendallhunt.com/shared/private-files /var/www/capistrano.kendallhunt.com/releases/20170308204552/private-files
+  INFO [70ebb723] Finished in 0.025 seconds with exit status 0 (successful).
+  INFO [02bec72d] Running /usr/bin/env ln -s /var/www/capistrano.kendallhunt.com/releases/20170308204552 /var/www/capistrano.kendallhunt.com/releases/current on 10.10.1.160
+ DEBUG [02bec72d] Command: /usr/bin/env ln -s /var/www/capistrano.kendallhunt.com/releases/20170308204552 /var/www/capistrano.kendallhunt.com/releases/current
+  INFO [02bec72d] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [cc31540f] Running /usr/bin/env mv /var/www/capistrano.kendallhunt.com/releases/current /var/www/capistrano.kendallhunt.com on 10.10.1.160
+ DEBUG [cc31540f] Command: /usr/bin/env mv /var/www/capistrano.kendallhunt.com/releases/current /var/www/capistrano.kendallhunt.com
+  INFO [cc31540f] Finished in 0.028 seconds with exit status 0 (successful).
+ DEBUG [5e18af60] Running /usr/bin/env ls -x /var/www/capistrano.kendallhunt.com/releases on 10.10.1.160
+ DEBUG [5e18af60] Command: /usr/bin/env ls -x /var/www/capistrano.kendallhunt.com/releases
+ DEBUG [5e18af60] 	20170308204552
+ DEBUG [5e18af60] Finished in 0.027 seconds with exit status 0 (successful).
+ DEBUG [3cc9a65e] Running if test ! -d /var/www/capistrano.kendallhunt.com/releases; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/releases'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [3cc9a65e] Command: if test ! -d /var/www/capistrano.kendallhunt.com/releases; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/releases'" 1>&2; false; fi
+ DEBUG [3cc9a65e] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [567855ac] Running /usr/bin/env echo "Branch master (at ec10cc76dbdc55ed64096db13410f8a77863468c) deployed as release 20170308204552 by vagrant" >> /var/www/capistrano.kendallhunt.com/revisions.log on 10.10.1.160
+ DEBUG [567855ac] Command: cd /var/www/capistrano.kendallhunt.com/releases && /usr/bin/env echo "Branch master (at ec10cc76dbdc55ed64096db13410f8a77863468c) deployed as release 20170308204552 by vagrant" >> /var/www/capistrano.kendallhunt.com/revisions.log
+  INFO [567855ac] Finished in 0.030 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:55:22 -0600 cap production composer:install_executable
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6f870997] Running if test ! -d /var/www/capistrano.kendallhunt.com/shared; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/shared'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [6f870997] Command: if test ! -d /var/www/capistrano.kendallhunt.com/shared; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/shared'" 1>&2; false; fi
+ DEBUG [6f870997] Finished in 0.444 seconds with exit status 0 (successful).
+ DEBUG [ec363e79] Running /usr/bin/env [ -e composer.phar ] on 10.10.1.160
+ DEBUG [ec363e79] Command: cd /var/www/capistrano.kendallhunt.com/shared && /usr/bin/env [ -e composer.phar ]
+ DEBUG [ec363e79] Finished in 0.133 seconds with exit status 1 (failed).
+  INFO [6f85cdd0] Running /usr/bin/env curl -s https://getcomposer.org/installer | php  on 10.10.1.160
+ DEBUG [6f85cdd0] Command: cd /var/www/capistrano.kendallhunt.com/shared && /usr/bin/env curl -s https://getcomposer.org/installer | php 
+ DEBUG [6f85cdd0] 	[0;32mAll settings correct for using Composer[0m
+[33;33mDownloading...[0m
+ DEBUG [6f85cdd0] 	[0;32m
+Composer (version 1.4.0) successfully installed to: /var/www/capistrano.kendallhunt.com/shared/composer.phar[0m
+[33;33mUse it: php composer.phar[0m
+
+  INFO [6f85cdd0] Finished in 4.762 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:55:42 -0600 cap production drush:install
+  INFO ---------------------------------------------------------------------------
+ DEBUG [01706888] Running if test ! -d /var/www/capistrano.kendallhunt.com/shared; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/shared'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [01706888] Command: if test ! -d /var/www/capistrano.kendallhunt.com/shared; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/shared'" 1>&2; false; fi
+ DEBUG [01706888] Finished in 0.201 seconds with exit status 0 (successful).
+  INFO [2f17fc51] Running /var/www/capistrano.kendallhunt.com/shared/composer.phar require drush/drush:~6.0.0 on 10.10.1.160
+ DEBUG [2f17fc51] Command: cd /var/www/capistrano.kendallhunt.com/shared && /var/www/capistrano.kendallhunt.com/shared/composer.phar require drush/drush:~6.0.0
+ DEBUG [2f17fc51] 	[32m./composer.json has been created[39m
+ DEBUG [2f17fc51] 	[32mLoading composer repositories with package information[39m
+ DEBUG [2f17fc51] 	[32mUpdating dependencies (including require-dev)[39m
+ DEBUG [2f17fc51] 	[32mPackage operations: 1 install, 0 updates, 0 removals[39m
+  - Installing [32mdrush/drush[39m ([33m6.0.0[39m): Downloading ([33mconnecting...[39m)
+ DEBUG [2f17fc51] 	Downloading ([33m100%[39m)         
+ DEBUG [2f17fc51] 	
+ DEBUG [2f17fc51] 	[32mWriting lock file[39m
+[32mGenerating autoload files[39m
+  INFO [2f17fc51] Finished in 26.967 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:58:13 -0600 cap production drupal:drush
+  INFO ---------------------------------------------------------------------------
+ DEBUG [11f0cdfd] Running if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [11f0cdfd] Command: if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi
+ DEBUG [11f0cdfd] Finished in 0.207 seconds with exit status 0 (successful).
+  INFO [c1574093] Running /var/www/capistrano.kendallhunt.com/vendor/bin/drush drush cc on 10.10.1.160
+ DEBUG [c1574093] Command: cd /var/www/capistrano.kendallhunt.com/current/html && /var/www/capistrano.kendallhunt.com/vendor/bin/drush drush cc
+ DEBUG [c1574093] 	bash: /var/www/capistrano.kendallhunt.com/vendor/bin/drush: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:58:45 -0600 cap production drupal:drush
+  INFO ---------------------------------------------------------------------------
+ DEBUG [50c32765] Running if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [50c32765] Command: if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi
+ DEBUG [50c32765] Finished in 0.235 seconds with exit status 0 (successful).
+  INFO [322ed282] Running /var/www/capistrano.kendallhunt.com/vendor/bin/drush cc on 10.10.1.160
+ DEBUG [322ed282] Command: cd /var/www/capistrano.kendallhunt.com/current/html && /var/www/capistrano.kendallhunt.com/vendor/bin/drush cc
+ DEBUG [322ed282] 	bash: /var/www/capistrano.kendallhunt.com/vendor/bin/drush: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 14:59:04 -0600 cap production drupal:drush
+  INFO ---------------------------------------------------------------------------
+ DEBUG [777394c0] Running if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [777394c0] Command: if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi
+ DEBUG [777394c0] Finished in 0.195 seconds with exit status 0 (successful).
+  INFO [79d37c99] Running /var/www/capistrano.kendallhunt.com/vendor/bin/drush status on 10.10.1.160
+ DEBUG [79d37c99] Command: cd /var/www/capistrano.kendallhunt.com/current/html && /var/www/capistrano.kendallhunt.com/vendor/bin/drush status
+ DEBUG [79d37c99] 	bash: /var/www/capistrano.kendallhunt.com/vendor/bin/drush: No such file or directory
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 15:00:03 -0600 cap production drupal:drush
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5a4119aa] Running if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [5a4119aa] Command: if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi
+ DEBUG [5a4119aa] Finished in 0.156 seconds with exit status 0 (successful).
+  INFO [aee79744] Running /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush cc on 10.10.1.160
+ DEBUG [aee79744] Command: cd /var/www/capistrano.kendallhunt.com/current/html && /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush cc
+ DEBUG [aee79744] 	Enter a number to choose which cache to clear.
+ [0]  :  Cancel         
+ [1]  :  all            
+ [2]  :  drush          
+ [3]  :  theme-registry 
+ [4]  :  menu           
+ [5]  :  css-js         
+ [6]  :  block          
+ [7]  :  module-list    
+ [8]  :  theme-list     
+ [9]  :  registry
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 15:00:18 -0600 cap production drupal:drush
+  INFO ---------------------------------------------------------------------------
+ DEBUG [53b0822b] Running if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [53b0822b] Command: if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi
+ DEBUG [53b0822b] Finished in 0.116 seconds with exit status 0 (successful).
+  INFO [a4d4a851] Running /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush cc all on 10.10.1.160
+ DEBUG [a4d4a851] Command: cd /var/www/capistrano.kendallhunt.com/current/html && /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush cc all
+ DEBUG [a4d4a851] 	'all' cache was cleared in self                                      [1;32;40m[1m[success][0m
+  INFO [a4d4a851] Finished in 1.527 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 15:00:55 -0600 cap production drupal:drush pm-enable syslog
+  INFO ---------------------------------------------------------------------------
+ DEBUG [49ac3092] Running if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [49ac3092] Command: if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi
+ DEBUG [49ac3092] Finished in 0.152 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 15:01:01 -0600 cap production drupal:drush
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b4cb70df] Running if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [b4cb70df] Command: if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi
+ DEBUG [b4cb70df] Finished in 0.204 seconds with exit status 0 (successful).
+  INFO [83d155b2] Running /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush Drush command you want to run (eg. 'cache-clear css-js'). Type 'help' to have a list of avaible drush commands. on 10.10.1.160
+ DEBUG [83d155b2] Command: cd /var/www/capistrano.kendallhunt.com/current/html && /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush Drush command you want to run (eg. 'cache-clear css-js'). Type 'help' to have a list of avaible drush commands.
+ DEBUG [83d155b2] 	bash: -c: line 0: syntax error near unexpected token `('
+bash: -c: line 0: `cd /var/www/capistrano.kendallhunt.com/current/html && /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush Drush command you want to run (eg. 'cache-clear css-js'). Type 'help' to have a list of avaible drush commands.'
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 15:01:13 -0600 cap production drupal:drush
+  INFO ---------------------------------------------------------------------------
+ DEBUG [8eda3891] Running if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [8eda3891] Command: if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi
+ DEBUG [8eda3891] Finished in 0.156 seconds with exit status 0 (successful).
+  INFO [c013d752] Running /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush en syslog on 10.10.1.160
+ DEBUG [c013d752] Command: cd /var/www/capistrano.kendallhunt.com/current/html && /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush en syslog
+ DEBUG [c013d752] 	The following extensions will be enabled: syslog
+Do you really want to continue? (y/n): 
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 15:01:22 -0600 cap production drupal:drush
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9dd77906] Running if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [9dd77906] Command: if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi
+ DEBUG [9dd77906] Finished in 0.153 seconds with exit status 0 (successful).
+  INFO [7f58be56] Running /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush en syslog -y on 10.10.1.160
+ DEBUG [7f58be56] Command: cd /var/www/capistrano.kendallhunt.com/current/html && /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush en syslog -y
+ DEBUG [7f58be56] 	The following extensions will be enabled: syslog
+Do you really want to continue? (y/n): y
+ DEBUG [7f58be56] 	syslog was enabled successfully.                                     [1;32;40m[1m[ok][0m
+  INFO [7f58be56] Finished in 1.932 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-03-08 15:01:33 -0600 cap production drupal:drush
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f1e21616] Running if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi on 10.10.1.160
+ DEBUG [f1e21616] Command: if test ! -d /var/www/capistrano.kendallhunt.com/current/html; then echo "Directory does not exist '/var/www/capistrano.kendallhunt.com/current/html'" 1>&2; false; fi
+ DEBUG [f1e21616] Finished in 0.170 seconds with exit status 0 (successful).
+  INFO [f7be1300] Running /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush status on 10.10.1.160
+ DEBUG [f7be1300] Command: cd /var/www/capistrano.kendallhunt.com/current/html && /var/www/capistrano.kendallhunt.com/shared/vendor/bin/drush status
+ DEBUG [f7be1300] 	 Drupal version                  :  7.55-dev                                    
+ Site URI                        :  http://default                              
+ Database driver                 :  mysql                                       
+ Database username               :  drupaluser                                  
+ Database name                   :  capistrano                                  
+ Database                        :  Connected                                   
+ Drupal bootstrap                :  Successful                                  
+ Drupal user                     :  Anonymous                                   
+ Default theme                   :  bartik                                      
+ Administration theme            :  seven                                       
+ PHP executable                  :  /usr/bin/php                                
+ PHP configuration               :  /etc/php.ini                                
+ PHP OS                          :  Linux                                       
+ Drush version                   :  6.0                                         
+ Drush configuration             :                                              
+ Drush alias files               :                                              
+ Drupal root                     :  /var/www/capistrano.kendallhunt.com/current 
+                                    /html                                       
+ Site path                       :  sites/default                               
+ File directory path             :  sites/default/files                         
+ Temporary file directory path   :  /tmp                                        
+
+  INFO [f7be1300] Finished in 0.906 seconds with exit status 0 (successful).
